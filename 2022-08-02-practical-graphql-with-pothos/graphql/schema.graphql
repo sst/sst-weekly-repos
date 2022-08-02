@@ -1,0 +1,27 @@
+type Article {
+  id: ID!
+  title: String!
+  url: String!
+}
+
+type Mutation {
+  createArticle(title: String!, url: String!): Article!
+}
+
+type Query {
+  articles: [Article!]!
+  tasks: [Task!]!
+}
+
+type Task {
+  assignee: User
+  completed: Boolean!
+  id: ID!
+  name: String!
+}
+
+type User {
+  id: ID!
+  name: String!
+  taskCount: Int!
+}
