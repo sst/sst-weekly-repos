@@ -1,0 +1,14 @@
+{
+  "name": "@trpc/services",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {},
+  "dependencies": {
+    "@trpc/server": "^9.27.0",
+    "aws-sdk": "^2.1190.0",
+    "zod": "^3.17.10"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.101"
+  }
+}
