@@ -5,10 +5,13 @@
   "scripts": {},
   "dependencies": {
     "@trpc/server": "^9.27.0",
+    "aws-iot-device-sdk": "^2.2.12",
+    "aws-iot-device-sdk-v2": "^1.8.5",
     "aws-sdk": "^2.1190.0",
     "zod": "^3.17.10"
   },
   "devDependencies": {
+    "@types/aws-iot-device-sdk": "^2.2.4",
     "@types/aws-lambda": "^8.10.101"
   }
 }

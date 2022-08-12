@@ -13,8 +13,8 @@
   },
   "devDependencies": {
     "aws-cdk-lib": "2.32.0",
-    "@serverless-stack/cli": "^1.6.8",
-    "@serverless-stack/resources": "^1.6.8",
+    "@serverless-stack/cli": "snapshot",
+    "@serverless-stack/resources": "snapshot",
     "typescript": "^4.7.4",
     "@tsconfig/node16": "^1.0.3",
     "vitest": "^0.21.1"

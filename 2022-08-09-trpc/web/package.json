@@ -17,7 +17,7 @@
     "react-query": "3"
   },
   "devDependencies": {
-    "@serverless-stack/static-site-env": "^1.6.8",
+    "@serverless-stack/static-site-env": "snapshot",
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
     "@vitejs/plugin-react": "^2.0.0",
