@@ -1,0 +1,13 @@
+type Article {
+  id: ID!
+  title: String!
+  url: String!
+}
+
+type Mutation {
+  createArticle(title: String!, url: String!): Article!
+}
+
+type Query {
+  articles: [Article!]!
+}
