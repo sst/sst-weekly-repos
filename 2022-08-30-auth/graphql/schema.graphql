@@ -1,0 +1,19 @@
+type Article {
+  id: ID!
+  title: String!
+  url: String!
+}
+
+type Mutation {
+  createArticle(title: String!, url: String!): Article!
+}
+
+type Query {
+  articles: [Article!]!
+  session: User
+}
+
+type User {
+  email: String!
+  id: String!
+}
